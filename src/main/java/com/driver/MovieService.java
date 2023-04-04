@@ -59,7 +59,7 @@ public class MovieService {
         return ans;
     }
 
-    public String deleteAllDirector(){
+    public String deleteAllDirectors(){
         String ans = movieRepository.removeAllDirector();
         return ans;
     }
